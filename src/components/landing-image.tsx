@@ -5,7 +5,7 @@ import React from 'react'
 import { easeOut, motion } from "motion/react"
 export const LandingImage = () => {
   return (
-    <div className="relative min-h-140 w-full pt-20 perspective-distant transform-3d">
+    <div className="relative min-h-72 sm:min-h-80 md:min-h-100 lg:min-h-140 w-full pt-20 perspective-distant transform-3d translate-x-40">
           <motion.div 
           initial={{
             opacity: 0,
