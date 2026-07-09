@@ -1,17 +1,15 @@
-import React from "react";
+
 import { Container } from "./container";
 import { Heading } from "./heading";
 import { SubHeading } from "./subheading";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import { cn } from "@/lib/utils";
 import { LandingImage } from "./landing-image";
 
 export const Hero = () => {
   return (
-    <div className="pt-10 md:pt-20 lg:pt-32">
-      <Container>
+    <section className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
+      <Container className="px-4 md:px-8">
         <Heading tag="h1">
           Agents that do the work <br />
           Approvals that keep you safe.
@@ -28,6 +26,6 @@ export const Hero = () => {
         </div>
         <LandingImage/>
       </Container>
-    </div>
+    </section>
   );
 };
