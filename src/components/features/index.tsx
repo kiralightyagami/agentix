@@ -5,6 +5,8 @@ import { SubHeading } from "../subheading";
 import { Card, CardContent, CardCTA, CardSkeleton, CardTitle } from "./card";
 import { IconPlus } from "@tabler/icons-react";
 import { SkeletonOne } from "./skeletons/first";
+import { SkeletonThree } from "./skeletons/third";
+import { SkeletonTwo } from "./skeletons/second";
 
 export const Features = () => {
   return (
@@ -22,7 +24,7 @@ export const Features = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-10 md:my-20">
         <Card className="rounded-tl-3xl rounded-bl-3xl">
-          <CardSkeleton className="relative overflow-hidden">
+          <CardSkeleton>
             <SkeletonOne/>
           </CardSkeleton>
           <CardContent>
@@ -33,7 +35,9 @@ export const Features = () => {
           </CardContent>
         </Card>
         <Card>
-          <CardSkeleton></CardSkeleton>
+          <CardSkeleton>
+            <SkeletonTwo/>
+          </CardSkeleton>
           <CardContent>
             <CardTitle>Automate Handoffs, Reduce Ops Friction</CardTitle>
             <CardCTA>
@@ -42,7 +46,9 @@ export const Features = () => {
           </CardContent>
         </Card>
         <Card className="rounded-tr-3xl rounded-br-3xl">
-          <CardSkeleton></CardSkeleton>
+          <CardSkeleton>
+            <SkeletonThree/>
+          </CardSkeleton>
           <CardContent>
             <CardTitle>Approvals, Guardrails, and Full Auditability</CardTitle>
             <CardCTA>

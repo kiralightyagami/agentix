@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 
 export const LandingImage = () => {
   return (
-    <div className="relative">
+    <div className="">
       <div className="relative min-h-72 sm:min-h-80 md:min-h-100 lg:min-h-140 w-full pt-20 perspective-distant translate-x-10 md:translate-x-28">
         <motion.div
           initial={{
@@ -27,6 +27,7 @@ export const LandingImage = () => {
             height={1080}
             width={1920}
             alt="Demo 1 for agenforce template"
+            loading='eager'
             draggable={false}
             className={cn("absolute inset-0 rounded-lg mask-r-from-20% mask-b-from-20% shadow-xl select-none pointer-events-none")}
             style={{

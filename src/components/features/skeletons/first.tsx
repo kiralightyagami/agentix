@@ -10,7 +10,8 @@ import React from "react";
 
 export const SkeletonOne = () => {
   return (
-    <div className="">
+    <div 
+    className="perspective-distant rotate-z-15 -rotate-y-20 rotate-x-30 scale-[1.2] translate-y-60 md:translate-y-72 h-full w-full -translate-x-15">
       <SkeletonCard 
       className="absolute bottom-0 left-12 z-30 max-w-[90%]"
       icon={<IconCircleDashedCheck className="size-4"/>}
@@ -19,7 +20,7 @@ export const SkeletonOne = () => {
       badge={<Badge text="120$" variant="danger" />}
       />
       <SkeletonCard 
-      className="absolute bottom-10 left-8 z-20"
+      className="absolute bottom-10 left-9 z-20"
       icon={<IconExclamationCircle className="size-4"/>}
       title={"Issue Tracker"} 
       description={"Creates clear, ready-to-use campaign briefs using product info, audience data, and past results"}
@@ -44,18 +45,16 @@ const SkeletonCard = ({icon, title, description, badge, className}: {
     className?: string;
 }) => {
   return (
-    <div className={cn("max-w-[85%] h-fit my-auto bg-neutral-100 dark:bg-neutral-950 mx-auto w-full p-3 rounded-lg border border-neutral-200 dark:border-neutral-700", className)}>
+    <div className={cn("max-w-[85%] h-fit my-auto bg-neutral-100 dark:bg-neutral-950 mx-auto w-full p-3 rounded-lg border border-neutral-200 dark:border-neutral-700 shadow-2xl", className)}>
       <div className="flex gap-3 items-center">
         {icon}
-        <p className="text-sm font-bold text-black dark:text-white">
+        <p className="text-sm font-normal text-black dark:text-white">
           {title}
         </p>
         {badge}
       </div>
-      <p className="text-sm text-neutral-500 dark:text-neutral-400 font-medium mt-3">
+      <p className="text-sm text-neutral-400/80 dark:text-neutral-400/80 font-normal mt-3">
        {description}
-        Creates clear, ready-to-use campaign briefs using product info, audience
-        data, and past results.
       </p>
       <div className="flex items-center gap-2 flex-wrap mt-2">
         <Tag>
