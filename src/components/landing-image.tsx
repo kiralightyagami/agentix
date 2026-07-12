@@ -4,7 +4,11 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
-export const LandingImage = () => {
+export const LandingImage = ({
+  firstImageSrc = "/hero.jpg",
+  SecondImageSrc = "/hero.jpg",
+  showGradient = true
+}) => {
   return (
     <div className="">
       <div className="relative min-h-72 sm:min-h-80 md:min-h-100 lg:min-h-140 w-full pt-20 perspective-distant translate-x-10 md:translate-x-28">
@@ -23,7 +27,7 @@ export const LandingImage = () => {
           }}
           className='perspective-[4000px]'>
           <Image
-            src="/hero.jpg"
+            src={firstImageSrc}
             height={1080}
             width={1920}
             alt="Demo 1 for agenforce template"
@@ -51,7 +55,7 @@ export const LandingImage = () => {
           }}
           className='perspective-[4000px] translate-x-20 -translate-y-10 md:-translate-y-20 lg:-translate-y-40'>
           <Image
-            src="/hero.jpg"
+            src={SecondImageSrc}
             height={1080}
             width={1920}
             alt="Demo 2 for agenforce template"
@@ -63,7 +67,9 @@ export const LandingImage = () => {
           />
         </motion.div>
       </div>
+      {showGradient && (
       <div className='absolute inset-x-0 bottom-0 h-40 md:h-100 w-full mask-t-from-10% bg-background z-40'></div>
+       )}
     </div>
   )
 }

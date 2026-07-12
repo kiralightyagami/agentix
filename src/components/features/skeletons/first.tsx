@@ -11,7 +11,7 @@ import React from "react";
 export const SkeletonOne = () => {
   return (
     <div 
-    className="perspective-distant rotate-z-15 -rotate-y-20 rotate-x-30 scale-[1.2] translate-y-60 md:translate-y-72 h-full w-full -translate-x-15">
+    className="perspective-distant rotate-z-15 -rotate-y-20 rotate-x-30 scale-[1.2] translate-y-66 md:translate-y-72 h-full w-full -translate-x-15">
       <SkeletonCard 
       className="absolute bottom-0 left-12 z-30 max-w-[90%]"
       icon={<IconCircleDashedCheck className="size-4"/>}

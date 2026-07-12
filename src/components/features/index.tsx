@@ -11,12 +11,12 @@ import { SkeletonTwo } from "./skeletons/second";
 export const Features = () => {
   return (
     <Container className="py-10 md:pt-20 lg:pt-32">
-      <div className="flex items-baseline-last justify-between">
-        <Heading>
+      <div className="flex lg:flex-row flex-col lg:items-baseline-last justify-between gap-10">
+        <Heading className="text-center lg:text-left">
           Built for Fast Moving <br />
           Teams That Need Control.
         </Heading>
-        <SubHeading>
+        <SubHeading className="text-center lg:text-left">
           Agents work inside your existing tools, with built-in approvals, brand
           and policy guardrails, and full traceability. Every action is
           auditable, every outcome accountable.

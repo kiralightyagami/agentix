@@ -10,7 +10,7 @@ export const Card = ({
 }) => {
   return (
     <div
-      className={cn("bg-neutral-50 dark:bg-neutral-800 rounded-lg", className)}
+      className={cn("max-w-xl mx-auto bg-neutral-50 dark:bg-neutral-800 rounded-lg", className)}
     >
       {children}
     </div>
@@ -74,7 +74,7 @@ export const CardSkeleton = ({
     return (
       <div
         className={cn(
-          "relative min-h-40 md:min-h-80 overflow-hidden perspective-distant mask-radial-from-50% mask-r-from-50%",
+          "relative min-h-70 md:min-h-80 overflow-hidden perspective-distant mask-radial-from-50% mask-r-from-50%",
           className,
         )}
       >
