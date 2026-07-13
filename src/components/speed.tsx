@@ -6,7 +6,7 @@ import { LandingImage } from "./landing-image";
 
 export const Speed = () => {
   return (
-    <Container className="relative py-10 md:py-20 lg:py-10">
+    <Container className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32">
       <Heading tag="h1">
         Built for Speed <br />
         Designed for Scale.
@@ -15,7 +15,7 @@ export const Speed = () => {
           Deploy AI agents that plan, act through your tools, and report
           outcomes without changing how your teams work.
         </SubHeading>
-        <LandingImage firstImageSrc="/speed.webp" SecondImageSrc="/speed.webp" showGradient={false}/>
+        <LandingImage firstImageSrc="/speed.webp" SecondImageSrc="/speed.webp"/>
     </Container>
   );
 };
