@@ -12,7 +12,7 @@ import {
 
 export const SkeletonTwo = () => {
   return (
-    <div className="flex-1 rounded-t-3xl gap-2 flex items-center justify-center w-full h-full absolute inset-x-0 p-2 rotate-y-20 rotate-x-20 -rotate-z-20">
+    <div className="flex-1 rounded-t-3xl gap-2 flex items-center justify-center w-full h-full absolute inset-x-0 p-2 rotate-y-20 rotate-x-20 -rotate-z-20 ">
       <Circle className="flex items-center justify-center border border-neutral-200 dark:border-neutral-600 shadow-sm">
         <LogoIcon className="size-10 text-neutral-400" />
         <RevolvingCard className="[--translate-position:120px] [--orbit-duration:10s]">
