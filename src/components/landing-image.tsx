@@ -17,7 +17,7 @@ export const LandingImage = ({
             opacity: 0,
             y: -100,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             y: 0
           }}
@@ -44,7 +44,7 @@ export const LandingImage = ({
             opacity: 0,
             y: -100,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             y: 0,
           }}
