@@ -31,7 +31,7 @@ export const FeaturesTrertiary = () => {
             <CardDescription>
               Controls who can launch, review, or manage agents based on roles.
             </CardDescription>
-            <CardSkeleton className="mask-radial-from-50% mask-t-from-50%">
+            <CardSkeleton className="">
               <SkeletonTwo />
             </CardSkeleton>
           </div>
