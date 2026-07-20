@@ -11,8 +11,8 @@ export const FeaturesTrertiary = () => {
   return (
     <section className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800 divide-y md:divide-y-0 md:divide-x divide-neutral-200 dark:divide-neutral-800">
-          <div className="pt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800 ">
+          <div className="pt-8 border-b border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Audit Trail
             </h2>
@@ -24,14 +24,25 @@ export const FeaturesTrertiary = () => {
               <SkeletonOne />
             </CardSkeleton>
           </div>
-          <div className="pt-8 px-8">
+          <div className="pt-8 px-8 border-b border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Role-Based Access
             </h2>
             <CardDescription>
               Controls who can launch, review, or manage agents based on roles.
             </CardDescription>
-            <CardSkeleton className="">
+            <CardSkeleton className="mask-radial-from-20%">
+              <SkeletonTwo />
+            </CardSkeleton>
+          </div>
+          <div className="pt-8 px-8 border-r border-neutral-200 dark:border-neutral-800">
+            <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
+              Role-Based Access
+            </h2>
+            <CardDescription>
+              Controls who can launch, review, or manage agents based on roles.
+            </CardDescription>
+            <CardSkeleton className="mask-radial-from-20%">
               <SkeletonTwo />
             </CardSkeleton>
           </div>
