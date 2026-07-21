@@ -6,13 +6,15 @@ import { cn } from "@/lib/utils";
 import { SkeletonOne } from "./skeletons/first";
 import { SkeletonTwo } from "./skeletons/second";
 import { IntegrationIcon, PeopleIcon, WorkflowIcon } from "@/icons";
+import { SkeletonThree } from "./skeletons/third";
+import { SkeletonFour } from "./skeletons/forth";
 
 export const FeaturesTrertiary = () => {
   return (
     <section className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800 ">
-          <div className="pt-8 border-b border-r border-neutral-200 dark:border-neutral-800">
+          <div className="pt-8 pl-8 border-b border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Audit Trail
             </h2>
@@ -31,19 +33,30 @@ export const FeaturesTrertiary = () => {
             <CardDescription>
               Controls who can launch, review, or manage agents based on roles.
             </CardDescription>
-            <CardSkeleton className="mask-radial-from-20%">
+            <CardSkeleton className=" mask-radial-from-20%">
               <SkeletonTwo />
             </CardSkeleton>
           </div>
-          <div className="pt-8 px-8 border-r border-neutral-200 dark:border-neutral-800">
+          <div className="pt-8 pl-8 border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
-              Role-Based Access
+              Approval Queue
             </h2>
             <CardDescription>
-              Controls who can launch, review, or manage agents based on roles.
+            Sends agent-generated content to human reviewers before it&apos;s published.
             </CardDescription>
-            <CardSkeleton className="mask-radial-from-20%">
-              <SkeletonTwo />
+            <CardSkeleton className="mask-radial-from-20% mask-r-from-50%">
+              <SkeletonThree />
+            </CardSkeleton>
+          </div>
+          <div className="pt-8 pl-8 border-r border-neutral-200 dark:border-neutral-800">
+            <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
+            Guardrail Engine
+            </h2>
+            <CardDescription>
+            Applies brand, tone, and policy checks before output goes live.
+            </CardDescription>
+            <CardSkeleton className="mask-radial-from-20% mask-r-from-50%">
+              <SkeletonFour />
             </CardSkeleton>
           </div>
         </div>

@@ -7,8 +7,8 @@ import { LogoIcon } from "@/components/logo";
 
 export const SkeletonTwo = () => {
   return (
-    <div className="flex-1 rounded-t-3xl gap-4 space-y-4 w-full h-full px-8 flex-col items-center justify-center">
-      <div className="grid  grid-cols-4 gap-2 justify-center max-w-md mx-auto">
+    <div className="absolute flex-1 rounded-t-3xl gap-4 space-y-4 w-full h-full px-8 flex-col items-center justify-center">
+      <div className="grid grid-cols-4 gap-2 justify-center max-w-md mx-auto">
         <Box />
         <Box src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         <Box src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
