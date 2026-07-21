@@ -48,14 +48,14 @@ export const FeaturesTrertiary = () => {
               <SkeletonThree />
             </CardSkeleton>
           </div>
-          <div className="pt-8 pl-8 border-r border-neutral-200 dark:border-neutral-800">
+          <div className="pt-8 pl-8 ">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
             Guardrail Engine
             </h2>
             <CardDescription>
             Applies brand, tone, and policy checks before output goes live.
             </CardDescription>
-            <CardSkeleton className="mask-radial-from-20% mask-r-from-50%">
+            <CardSkeleton className="">
               <SkeletonFour />
             </CardSkeleton>
           </div>

@@ -87,7 +87,9 @@ const Box = ({
           </>
         )}
       </motion.div>
+      {!src &&
       <Pattern />
+      }
     </div>
   );
 };

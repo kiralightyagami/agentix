@@ -523,8 +523,8 @@ export const ArrowIllustration = (
           y2="150.681"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint1_linear_6_2529"
@@ -535,7 +535,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint2_linear_6_2529"
@@ -545,8 +545,8 @@ export const ArrowIllustration = (
           y2="185.069"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint3_linear_6_2529"
@@ -557,7 +557,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint4_linear_6_2529"
@@ -567,8 +567,8 @@ export const ArrowIllustration = (
           y2="144.334"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint5_linear_6_2529"
@@ -579,7 +579,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint6_linear_6_2529"
@@ -589,8 +589,8 @@ export const ArrowIllustration = (
           y2="144.335"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint7_linear_6_2529"
@@ -601,7 +601,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint8_linear_6_2529"
@@ -611,8 +611,8 @@ export const ArrowIllustration = (
           y2="76.2796"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint9_linear_6_2529"
@@ -623,7 +623,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint10_linear_6_2529"
@@ -633,8 +633,8 @@ export const ArrowIllustration = (
           y2="75.5674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint11_linear_6_2529"
@@ -645,7 +645,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint12_linear_6_2529"
@@ -655,8 +655,8 @@ export const ArrowIllustration = (
           y2="150.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint13_linear_6_2529"
@@ -667,7 +667,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint14_linear_6_2529"
@@ -677,8 +677,8 @@ export const ArrowIllustration = (
           y2="184.469"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint15_linear_6_2529"
@@ -689,7 +689,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint16_linear_6_2529"
@@ -699,8 +699,8 @@ export const ArrowIllustration = (
           y2="122.841"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCCCCC"></stop>
-          <stop offset="1" stop-color="#F7F7F7"></stop>
+          <stop stopColor="#CCCCCC"></stop>
+          <stop offset="1" stopColor="#F7F7F7"></stop>
         </linearGradient>
         <linearGradient
           id="paint17_linear_6_2529"
@@ -711,7 +711,7 @@ export const ArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
       </defs>
     </svg>
@@ -788,8 +788,8 @@ export const DownArrowIllustration = (
           y2="138.995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint1_linear_6_2517"
@@ -800,7 +800,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint2_linear_6_2517"
@@ -810,8 +810,8 @@ export const DownArrowIllustration = (
           y2="111.285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint3_linear_6_2517"
@@ -822,7 +822,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint4_linear_6_2517"
@@ -832,8 +832,8 @@ export const DownArrowIllustration = (
           y2="126.567"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint5_linear_6_2517"
@@ -844,7 +844,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint6_linear_6_2517"
@@ -854,8 +854,8 @@ export const DownArrowIllustration = (
           y2="153.284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint7_linear_6_2517"
@@ -866,7 +866,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint8_linear_6_2517"
@@ -876,8 +876,8 @@ export const DownArrowIllustration = (
           y2="130.904"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint9_linear_6_2517"
@@ -888,7 +888,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint10_linear_6_2517"
@@ -898,8 +898,8 @@ export const DownArrowIllustration = (
           y2="148.57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint11_linear_6_2517"
@@ -910,7 +910,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint12_linear_6_2517"
@@ -920,8 +920,8 @@ export const DownArrowIllustration = (
           y2="138.448"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint13_linear_6_2517"
@@ -932,7 +932,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint14_linear_6_2517"
@@ -942,8 +942,8 @@ export const DownArrowIllustration = (
           y2="123.205"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCCCCC"></stop>
-          <stop offset="1" stop-color="#F7F7F7"></stop>
+          <stop stopColor="#CCCCCC"></stop>
+          <stop offset="1" stopColor="#F7F7F7"></stop>
         </linearGradient>
         <linearGradient
           id="paint15_linear_6_2517"
@@ -954,7 +954,7 @@ export const DownArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
       </defs>
     </svg>
