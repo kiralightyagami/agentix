@@ -1,3 +1,4 @@
+import { Faq } from "@/components/faqs";
 import { Features } from "@/components/features";
 import { FeaturesSecondary } from "@/components/features-secondary";
 import { FeaturesTrertiary } from "@/components/features-tertiary";
@@ -7,8 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 import { Outcomes } from "@/components/outcomes";
 import { Pricing } from "@/components/pricing";
 import { Speed } from "@/components/speed";
-import { FileIcon } from "@/icons";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
       <Outcomes/>
       <FeaturesTrertiary/>
       <Pricing/>
+      <Faq/>
     </div>
   );
 }
