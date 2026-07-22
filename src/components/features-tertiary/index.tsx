@@ -13,7 +13,7 @@ export const FeaturesTrertiary = () => {
   return (
     <section className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800">
           <div className="pt-8 pl-8 border-b border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Audit Trail
@@ -48,7 +48,7 @@ export const FeaturesTrertiary = () => {
               <SkeletonThree />
             </CardSkeleton>
           </div>
-          <div className="pt-8 pl-8 ">
+          <div className="pt-8 pl-8">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
             Guardrail Engine
             </h2>

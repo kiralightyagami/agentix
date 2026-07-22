@@ -78,7 +78,7 @@ export const SkeletonFour = () => {
 
   const [selected, setSelected] = useState(items[0])
   return (
-    <div>
+    <div className="">
     <div className="flex gap-4 items-center justify-center max-w-lg mx-auto flex-wrap mb-4">
         {items.map((item, idx) => (
           <button key={item.title} onClick={()=> setSelected(item)} className={cn("text-sm opacity-50 active:scale-98 transition duration-200 cursor-pointer flex gap-1 items-center justify-center px-2 py-1 rounded-sm",
