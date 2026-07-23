@@ -85,6 +85,7 @@ export const SkeletonOne = () => {
             className="w-full"
           >
             <CardContent
+              index={index}
               key={index}
               Icon={
                 <div
@@ -128,6 +129,7 @@ const CardContent = ({
   badgeIcon,
   badgeText,
   badgeClassName,
+  index,
 }: {
   Icon: React.ReactNode;
   title: string;
@@ -135,6 +137,7 @@ const CardContent = ({
   badgeIcon?: React.ReactNode;
   badgeText: string;
   badgeClassName?: string;
+  index: number;
 }) => {
   return (
     <div className="flex justify-between items-center w-full pl-4 relative overflow-hidden">
@@ -155,8 +158,18 @@ const CardContent = ({
           </p>
         </div>
       </div>
-      <p className="text-sm text-neutral-500 dark:text-neutral-400 flex-nowrap max-w-[16rem] whitespace-nowrap w-full text-left">
-        {description}
+      <p className="whitespace-nowrap flex-nowrap text-sm text-neutral-500 dark:text-neutral-400  max-w-[16rem] w-full text-left">
+        {description?.split("").map((item,idx) => (
+          <motion.span
+          key={idx}
+          initial={{opacity:0}}
+          whileInView={{opacity:1}}
+          transition={{delay: idx * 0.01 + index * 0.1}}
+          >
+            {item}
+          </motion.span>
+        ))
+        }
       </p>
     </div>
   );

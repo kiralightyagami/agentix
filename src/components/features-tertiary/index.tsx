@@ -9,12 +9,12 @@ import { IntegrationIcon, PeopleIcon, WorkflowIcon } from "@/icons";
 import { SkeletonThree } from "./skeletons/third";
 import { SkeletonFour } from "./skeletons/forth";
 
-export const FeaturesTrertiary = () => {
+export const FeaturesTertiary = () => {
   return (
     <section className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 border-y border-neutral-200 dark:border-neutral-800">
-          <div className="pt-8 pl-8 border-b border-r border-neutral-200 dark:border-neutral-800">
+          <div className="pt-8 pl-8 border-b md:border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Audit Trail
             </h2>
@@ -37,7 +37,7 @@ export const FeaturesTrertiary = () => {
               <SkeletonTwo />
             </CardSkeleton>
           </div>
-          <div className="pt-8 pl-8 border-r border-neutral-200 dark:border-neutral-800">
+          <div className="pt-8 pl-8 md:border-r border-neutral-200 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800 dark:text-neutral-200">
               Approval Queue
             </h2>

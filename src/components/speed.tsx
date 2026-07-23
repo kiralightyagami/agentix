@@ -6,7 +6,8 @@ import { LandingImage } from "./landing-image";
 
 export const Speed = () => {
   return (
-    <Container className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32">
+    <section className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32" >
+    <Container>
       <Heading tag="h1">
         Built for Speed <br />
         Designed for Scale.
@@ -17,5 +18,6 @@ export const Speed = () => {
         </SubHeading>
         <LandingImage firstImageSrc="/speed.webp" SecondImageSrc="/speed.webp"/>
     </Container>
+    </section>
   );
 };

@@ -21,6 +21,9 @@ export const LandingImage = ({
             opacity: 1,
             y: 0
           }}
+          viewport={{
+            once: true,
+          }}
           transition={{
             duration: 0.5,
             ease: "easeOut"
@@ -48,6 +51,9 @@ export const LandingImage = ({
             opacity: 1,
             y: 0,
           }}
+          viewport={{
+            once: true,
+          }}
           transition={{
             duration: 0.5,
             delay: 0.1,
@@ -68,7 +74,7 @@ export const LandingImage = ({
         </motion.div>
       </div>
       {showGradient && (
-      <div className='absolute inset-x-0 bottom-0 h-40 md:h-100 w-full mask-t-from-10% bg-background z-40'></div>
+      <div className='absolute inset-x-0 bottom-0 h-40 md:h-100 w-full mask-t-from-10% bg-background z-30'></div>
        )}
     </div>
   )

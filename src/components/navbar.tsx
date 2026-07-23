@@ -125,7 +125,7 @@ export const DesktopNavbar = () => {
           <Link
             key={index}
             href={item.href}
-            className="text-sm text-neutral-600 dark:text-neutral-400 font-medium"
+            className="text-sm text-neutral-600 dark:text-neutral-400 font-medium hover:text-black dark:hover:text-white transition duration-200"
           >
             {item.title}
           </Link>
@@ -134,7 +134,7 @@ export const DesktopNavbar = () => {
       <div className="flex items-center gap-4">
         <Link
           href="login"
-          className="text-sm text-neutral-600 dark:text-neutral-400 font-medium"
+          className="text-sm text-neutral-600 dark:text-neutral-400 font-medium hover:text-black dark:hover:text-white transition duration-200"
         >
           Login
         </Link>

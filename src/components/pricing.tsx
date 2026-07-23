@@ -103,7 +103,7 @@ const Step = ({ text }: { text: string }) => {
   return (
     <li>
       <IconCircleCheckFilled className="size-5 text-neutral-500" />
-      {text}
+      <p className="text-sm md:text-base">{text}</p>
     </li>
   );
 };

@@ -6,7 +6,8 @@ import { LandingImage } from "./landing-image";
 
 export const Outcomes = () => {
   return (
-    <Container className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32">
+    <section className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32">
+    <Container>
       <Heading tag="h1">
         Governed AI, <br />
         Trusted Outcomes
@@ -20,5 +21,6 @@ export const Outcomes = () => {
         SecondImageSrc="/outcome.webp"
       />
     </Container>
+    </section>
   );
 };

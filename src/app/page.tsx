@@ -1,7 +1,7 @@
 import { Faq } from "@/components/faqs";
 import { Features } from "@/components/features";
 import { FeaturesSecondary } from "@/components/features-secondary";
-import { FeaturesTrertiary } from "@/components/features-tertiary";
+import { FeaturesTertiary } from "@/components/features-tertiary";
 import { Hero } from "@/components/hero";
 import { LogoCloud } from "@/components/logo-cloud";
 import { ModeToggle } from "@/components/mode-toggle";
@@ -19,7 +19,7 @@ export default function Home() {
       <Speed/>
       <FeaturesSecondary/>
       <Outcomes/>
-      <FeaturesTrertiary/>
+      <FeaturesTertiary/>
       <Pricing/>
       <Faq/>
     </div>
