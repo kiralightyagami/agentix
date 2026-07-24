@@ -26,7 +26,7 @@ export const SkeletonFour = () => {
       className:
         "bg-blue-100 border border-blue-200 dark:bg-neutral-800 dark:border-neutral-700",
       description:
-        "Link CRMs, helpdesks, ans API to give agent secure, role-based access.",
+        "Link CRMs, helpdesks, and API to give agent secure, role-based access.",
       tags: [
         { text: "Salesforce", icon: <SalesForceIcon /> },
         { text: "Hubspot", icon: <HubspotIcon /> },
@@ -216,7 +216,7 @@ const Card = ({
         <p className="text-sm mt-2 mb-4 text-neutral-600 dark:text-neutral-400 rounded-sm border border-dashed border-neutral-200 dark:border-neutral-700 px-2 py-1">
           {description}
         </p>
-        <div className="mt-2 flex flex-row fex-wrap gap-2">
+        <div className="mt-2 flex flex-row flex-wrap gap-2">
           {tags.map((tag: { text: string; icon: React.ReactNode }, idx) => (
             <motion.div
               key={idx}

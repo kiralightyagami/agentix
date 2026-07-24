@@ -4,8 +4,10 @@ import { Logo } from "./logo";
 import { SubHeading } from "./subheading";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { IconSend } from "@tabler/icons-react";
+import { IconBrandLinkedin, IconBrandTwitter, IconSend } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
+import { ModeToggle } from "./mode-toggle";
+import { InstagramIcon } from "@/icons";
 
 export const Footer = () => {
   const productLinks = [
@@ -111,6 +113,21 @@ export const Footer = () => {
         <div className="flex items-center gap-12 *:text-sm *:text-neutral-500 *:dark:hover:text-white *:hover:text-black *:transition *:duration-200">
             <Link href={"/privacy"} >Privacy Policy</Link>
             <Link href={"/terms"} >Terms of Service</Link>
+        </div>
+      </Container>
+      
+      <Container>
+      <div className="relative flex items-center justify-end gap-4 z-20 mt-4">
+          <ModeToggle/>
+          <Link href={"#"}>
+          <IconBrandTwitter className="size-4"/>
+          </Link>
+          <Link href={"#"}>
+          <InstagramIcon className="size-4"/>
+          </Link>
+          <Link href={"#"}>
+          <IconBrandLinkedin className="size-4"/>
+          </Link>
         </div>
       </Container>
 
